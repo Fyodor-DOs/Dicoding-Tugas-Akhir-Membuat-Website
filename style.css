@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+aside img {
+    width: 100%; /* Untuk membuat gambar mengisi lebar aside */
+    height: auto; /* Untuk mempertahankan rasio aspek gambar */
+    max-width: 300px; /* Ukuran maksimum lebar gambar */
+    border-radius: 8px; /* Memiliki radius sudut */
+}
+
